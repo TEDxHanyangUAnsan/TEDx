@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>TEDxHanyangUAnsan</title>
+	<meta name="author" content="TEDxHanyangUAnsan"/>
+	<meta name="keywords" content="fullpage,jquery,alvaro,trigo,plugin,fullscren,screen,full,iphone5,apple"/>
+	<meta name="Resource-type" content="Document"/>
+
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css"/>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<link rel="stylesheet" type="text/css" href="animate.css"/>
+
+
+	<style>
+
+		/* Sections
+		 * --------------------------------------- */
+		#section0 img,
+		#section1 img {
+			margin: 20px 0 0 0;
+		}
+
+		#section2 img {
+			margin: 20px 0 0 52px;
+		}
+
+		#section3 img {
+			bottom: 0px;
+			position: absolute;
+			margin-left: -420px;
+		}
+
+		.intro p {
+			width: 50%;
+			margin: 0 auto;
+			font-size: 1.5em;
+		}
+
+		.twitter-share-button {
+			position: absolute;
+			z-index: 99;
+			right: 149px;
+			top: 9px;
+		}
+
+	</style>
+
+
+</head>
+<body>
+
+
+<ul id="menu">
+	<li class="my-button" data-menuanchor="title"><a class="list" href="#title">TITLE</a></li>
+	<li class="my-button"  data-menuanchor="subject"><a href="#subject">SUBJECT</a></li>
+	<li class="my-button" data-menuanchor="speaker"><a href="#speaker">SPEAKER</a></li>
+	<li class="my-button" data-menuanchor="about"><a href="#about">TEDx</a></li>
+	<li class="my-button" data-menuanchor="profile"><a href="#profile">PROFILE</a></li>
+	<li class="my-button" data-menuanchor="sponsor"><a href="#sponsor">SPONSOR</a></li>
+	<li class="my-button" data-menuanchor="contact"><a href="#contact">CONTACT</a></li>
+</ul>
+
+
+<div id="fullpage">
+	<div class="section" id="section0">
+		<h1 class="wow fadeIn">새벽 6시</h1>
+		<p>지우</p>
+	</div>
+	<div class="section" id="section1">
+
+		<div class="intro">
+			<h1 class="wow fadeInDown">주제설명</h1>
+			<p>예찬</p>
+		</div>
+
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1>연사자</h1>
+			<p>현종</p>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="intro">
+			<h1>테드엑스 설명</h1>
+			<p>
+				지우
+				<br/><br/><br/><br/><br/><br/>
+			</p>
+		</div>
+	</div>
+	<div class="section" id="section4">
+		<div class="intro">
+			<h1>프로필</h1>
+			<p>
+				현종
+				<br/><br/><br/><br/><br/><br/>
+			</p>
+		</div>
+	</div>
+	<div class="section" id="section5">
+		<div class="intro">
+			<h1>스폰서</h1>
+			<p>
+				예찬
+				<br/><br/><br/><br/><br/><br/>
+			</p>
+		</div>
+	</div>
+	<div class="section" id="section6">
+		<div class="intro">
+			<h1>Contact</h1>
+			<p>
+				현종
+				<br/><br/><br/><br/><br/><br/>
+			</p>
+		</div>
+	</div>
+
+
+</div>
+<button id="homebutton">
+
+</button>
+<button id="applybutton">
+	<span>APPLY</span>
+</button>
+
+<script type="text/javascript">
+  var console = {
+    log: function () {
+    }
+  };
+</script>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="jquery.fullPage.js"></script>
+<script type="text/javascript" src="wow.min.js"></script>
+
+<script>
+  new WOW().init();
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('#fullpage').fullpage({
+      sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+      anchors: ['title', 'subject', 'speaker', 'about', 'profile', 'sponsor', 'contact'],
+      menu: '#menu',
+      scrollingSpeed: 800,
+      scrollBar: true
+    });
+
+  });
+</script>
+<script>
+//  $(".list").click(function(){
+//    $("a").addClass("hvr-sweep-to-right");
+//  });
+</script>
+
+</body>
+
+</html>
