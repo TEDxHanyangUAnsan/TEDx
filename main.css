@@ -43,12 +43,30 @@ q:before,q:after {
 abbr,acronym { border: 0;
 }
 
+@media screen and (max-width: 500px) {
+    #menu{
+        display: none;
+
+    }
+}
+
 
 /* Custom CSS
  * --------------------------------------- */
 body{
 	font-family: arial,helvetica;
 
+}
+#section0,
+#section1,
+#section2,
+#section3{
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#section0, #section1{
+    background-image: url(imgs/bg5.jpg);
 }
 .wrap{
 	margin-left: auto;
@@ -69,6 +87,11 @@ p{
 }
 .section{
 	text-align:center;
+}
+.intro p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
 }
 #menu li {
     font-size: 15pt;
