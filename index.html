@@ -5,14 +5,13 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>TEDxHanyangUAnsan</title>
 	<meta name="author" content="TEDxHanyangUAnsan"/>
-
-
+	<link href="favicon.ico" type="image/jpeg" rel="shortcut icon"/>
+	<link href='css/bootstrap.css' rel='stylesheet'/>
+	<link href='css/rotating-card.css' rel='stylesheet'/>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css"/>
 	<link rel="stylesheet" type="text/css" href="main.css"/>
 	<link rel="stylesheet" type="text/css" href="animate.css"/>
-
-
-
 
 
 </head>
@@ -21,7 +20,7 @@
 
 <ul id="menu">
 	<li class="my-button" data-menuanchor="title"><a class="list" href="#title">TITLE</a></li>
-	<li class="my-button"  data-menuanchor="subject"><a href="#subject">SUBJECT</a></li>
+	<li class="my-button" data-menuanchor="subject"><a href="#subject">SUBJECT</a></li>
 	<li class="my-button" data-menuanchor="speaker"><a href="#speaker">SPEAKER</a></li>
 	<li class="my-button" data-menuanchor="about"><a href="#about">TEDx</a></li>
 	<li class="my-button" data-menuanchor="profile"><a href="#profile">PROFILE</a></li>
@@ -38,14 +37,14 @@
 	<div class="section" id="section1">
 
 		<div class="intro">
-			<h1 class="wow fadeInDown">주제설명</h1>
+			<h1 class="wow fadeInDown" data-wow-delay="0.1s">주제설명</h1>
 			<p>예찬</p>
 		</div>
 
 	</div>
 	<div class="section" id="section2">
 		<div class="intro">
-			<h1>연사자</h1>
+			<h1 class="wow fadeInLeft">연사자</h1>
 			<p>현종</p>
 		</div>
 	</div>
@@ -60,25 +59,286 @@
 	</div>
 	<div class="section" id="section4">
 		<div class="slide">
-			<div class="intro">
-				<h1>Create Sliders</h1>
-				<p>Not only vertical scrolling but also horizontal scrolling. With fullPage.js you will be able to add horizontal sliders in the most simple way ever.</p>
-				<img src="imgs/slider.png" alt="slider" />
+			<div class="container" style="margin-top: 10%">
+				<div class="row wow fadeIn" data-wow-delay="0.2s">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div class="col-md-3 col-sm-6">
+							<div class="card-container">
+								<div class="card">
+									<div class="front">
+										<div class="cover">
+											<img src="imgs/rotating_card_thumb2.png"/>
+										</div>
+										<div class="user">
+											<img class="img-circle" src="imgs/rotating_card_profile3.png"/>
+										</div>
+										<div class="content">
+											<div class="main">
+												<h3 class="name">이상준 팀장</h3>
+												<p class="profession">CEO</p>
+												<p class="text-center">"I'm the new Sinatra, and since I made it here I
+													can make it anywhere, yeah, they love me everywhere"</p>
+											</div>
+											<div class="footer">
+												<i class="fa fa-mail-forward"></i> Auto Rotation
+											</div>
+										</div>
+									</div> <!-- end front panel -->
+									<div class="back">
+										<div class="header">
+											<h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+										</div>
+										<div class="footer">
+											<div class="social-links text-center">
+												<a href="http://creative-tim.com" class="facebook"><i
+														class="fa fa-facebook fa-fw"></i></a>
+												<a href="http://creative-tim.com" class="google"><i
+														class="fa fa-google-plus fa-fw"></i></a>
+												<a href="http://creative-tim.com" class="twitter"><i
+														class="fa fa-twitter fa-fw"></i></a>
+											</div>
+										</div>
+									</div> <!-- end back panel -->
+								</div> <!-- end card -->
+							</div> <!-- end card-container -->
+						</div> <!-- end col sm 3 -->
+						<!--         <div class="col-sm-1"></div> -->
+						<div class="col-md-3 col-sm-6">
+							<div class="card-container manual-flip">
+								<div class="card">
+									<div class="front">
+										<div class="cover">
+											<img src="imgs/rotating_card_thumb.png"/>
+										</div>
+										<div class="user">
+											<img class="img-circle" src="imgs/rotating_card_profile2.png"/>
+										</div>
+										<div class="content">
+											<div class="main">
+												<h3 class="name">Andrew Mike</h3>
+												<p class="profession">Web Developer</p>
+												<p class="text-center">"Lamborghini Mercy <br>Your chick she so thirsty
+													<br>I'm
+													in that two seat Lambo"</p>
+											</div>
+											<div class="footer">
+												<button class="btn btn-simple" onclick="rotateCard(this)">
+													<i class="fa fa-mail-forward"></i> Manual Rotation
+												</button>
+											</div>
+										</div>
+									</div> <!-- end front panel -->
+									<div class="back">
+										<div class="header">
+											<h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+										</div>
+										<div class="content">
+											<div class="main">
+												<h4 class="text-center">Job Description</h4>
+												<p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel
+													and
+													many others...</p>
+
+												<div class="stats-container">
+													<div class="stats">
+														<h4>235</h4>
+														<p>
+															Followers
+														</p>
+													</div>
+													<div class="stats">
+														<h4>114</h4>
+														<p>
+															Following
+														</p>
+													</div>
+													<div class="stats">
+														<h4>35</h4>
+														<p>
+															Projects
+														</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+										<div class="footer">
+											<button class="btn btn-simple" rel="tooltip" title="Flip Card"
+											        onclick="rotateCard(this)">
+												<i class="fa fa-reply"></i> Back
+											</button>
+											<div class="social-links text-center">
+												<a href="http://creative-tim.com" class="facebook"><i
+														class="fa fa-facebook fa-fw"></i></a>
+												<a href="http://creative-tim.com" class="google"><i
+														class="fa fa-google-plus fa-fw"></i></a>
+												<a href="http://creative-tim.com" class="twitter"><i
+														class="fa fa-twitter fa-fw"></i></a>
+											</div>
+										</div>
+									</div> <!-- end back panel -->
+								</div> <!-- end card -->
+							</div> <!-- end card-container -->
+						</div> <!-- end col sm 3 -->
+						<!--         <div class="col-sm-1"></div> -->
+						<div class="col-md-3 col-sm-6">
+							<div class="card-container">
+								<div class="card">
+									<div class="front">
+										<div class="cover">
+											<img src="imgs/rotating_card_thumb3.png"/>
+										</div>
+										<div class="user">
+											<img class="img-circle" src="imgs/rotating_card_profile.png"/>
+										</div>
+										<div class="content">
+											<div class="main">
+												<h3 class="name">Inna Corman</h3>
+												<p class="profession">Product Manager</p>
+
+												<p class="text-center">"I'm the new Sinatra, and since I made it here I
+													can
+													make it anywhere, yeah, they love me everywhere"</p>
+											</div>
+											<div class="footer">
+												<div class="rating">
+													<i class="fa fa-mail-forward"></i> Auto Rotation
+												</div>
+											</div>
+										</div>
+									</div> <!-- end front panel -->
+									<div class="back">
+										<div class="header">
+											<h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+										</div>
+										<div class="content">
+											<div class="main">
+												<h4 class="text-center">Job Description</h4>
+												<p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel
+													and
+													many others...</p>
+
+												<div class="stats-container">
+													<div class="stats">
+														<h4>235</h4>
+														<p>
+															Followers
+														</p>
+													</div>
+													<div class="stats">
+														<h4>114</h4>
+														<p>
+															Following
+														</p>
+													</div>
+													<div class="stats">
+														<h4>35</h4>
+														<p>
+															Projects
+														</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+										<div class="footer">
+											<div class="social-links text-center">
+												<a href="http://creative-tim.com" class="facebook"><i
+														class="fa fa-facebook fa-fw"></i></a>
+												<a href="http://creative-tim.com" class="google"><i
+														class="fa fa-google-plus fa-fw"></i></a>
+												<a href="http://creative-tim.com" class="twitter"><i
+														class="fa fa-twitter fa-fw"></i></a>
+											</div>
+										</div>
+									</div> <!-- end back panel -->
+								</div> <!-- end card -->
+							</div> <!-- end card-container -->
+						</div> <!-- end col-sm-3 -->
+						<div class="col-md-3 col-sm-6">
+							<div class="card-container">
+								<div class="card">
+									<div class="front">
+										<div class="cover">
+											<img src="imgs/rotating_card_thumb3.png"/>
+										</div>
+										<div class="user">
+											<img class="img-circle" src="imgs/rotating_card_profile.png"/>
+										</div>
+										<div class="content">
+											<div class="main">
+												<h3 class="name">Inna Corman</h3>
+												<p class="profession">Product Manager</p>
+
+												<p class="text-center">"I'm the new Sinatra, and since I made it here I
+													can
+													make it anywhere, yeah, they love me everywhere"</p>
+											</div>
+											<div class="footer">
+												<div class="rating">
+													<i class="fa fa-mail-forward"></i> Auto Rotation
+												</div>
+											</div>
+										</div>
+									</div> <!-- end front panel -->
+									<div class="back">
+										<div class="header">
+											<h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+										</div>
+										<div class="content">
+											<div class="main">
+												<h4 class="text-center">Job Description</h4>
+												<p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel
+													and
+													many others...</p>
+
+												<div class="stats-container">
+													<div class="stats">
+														<h4>235</h4>
+														<p>
+															Followers
+														</p>
+													</div>
+													<div class="stats">
+														<h4>114</h4>
+														<p>
+															Following
+														</p>
+													</div>
+													<div class="stats">
+														<h4>35</h4>
+														<p>
+															Projects
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="footer">
+											<div class="social-links text-center">
+												<a href="http://creative-tim.com" class="facebook"><i
+														class="fa fa-facebook fa-fw"></i></a>
+												<a href="http://creative-tim.com" class="google"><i
+														class="fa fa-google-plus fa-fw"></i></a>
+												<a href="http://creative-tim.com" class="twitter"><i
+														class="fa fa-twitter fa-fw"></i></a>
+											</div>
+										</div>
+									</div> <!-- end back panel -->
+								</div> <!-- end card -->
+							</div> <!-- end card-container -->
+						</div> <!-- end col-sm-3 -->
+					</div> <!-- end col-sm-10 -->
+				</div> <!-- end row -->
+				<div class="space-200"></div>
 			</div>
+
 		</div>
 		<div class="slide">
-			<div class="intro">
-				<h1>fsdfSliders</h1>
-				<p>Not only vertical scrolling but also horizontal scrolling. With fullPage.js you will be able to add horizontal sliders in the most simple way ever.</p>
-				<img src="imgs/slider.png" alt="slider" />
-			</div>
+
 		</div>
 		<div class="slide">
-			<div class="intro">
-				<h1>asdgSliders</h1>
-				<p>Not only vertical scrolling but also horizontal scrolling. With fullPage.js you will be able to add horizontal sliders in the most simple way ever.</p>
-				<img src="imgs/slider.png" alt="slider" />
-			</div>
+
 		</div>
 
 
@@ -114,13 +374,6 @@
 	<span>APPLY</span>
 </button>
 
-<script type="text/javascript">
-  var console = {
-    log: function () {
-    }
-  };
-</script>
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
@@ -128,26 +381,50 @@
 <script type="text/javascript" src="jquery.fullPage.js"></script>
 <script type="text/javascript" src="wow.min.js"></script>
 
-<script>
-  new WOW().init();
-</script>
+
 <script type="text/javascript">
+  new WOW().init();
   $(document).ready(function () {
     $('#fullpage').fullpage({
       sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
       anchors: ['title', 'subject', 'speaker', 'about', 'profile', 'sponsor', 'contact'],
       menu: '#menu',
-      scrollingSpeed: 800,
-      scrollBar: true
+      fadingEffect: true,
+      scrollBar: true,
+      slidesNavigation:true,
+
+      scrollingSpeed: 600,
+      onLeave: function (index, nextIndex, direction) {
+
+        if ($('.wow').hasClass('animated')) {
+          $('.wow').removeClass('animated');
+          $('.wow').removeAttr('style');
+        }
+        new WOW().init();
+      }
     });
 
   });
 </script>
-<script>
-//  $(".list").click(function(){
-//    $("a").addClass("hvr-sweep-to-right");
-//  });
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  $().ready(function () {
+    $('[rel="tooltip"]').tooltip();
+
+  });
+
+  function rotateCard(btn) {
+    var $card = $(btn).closest('.card-container');
+    console.log($card);
+    if ($card.hasClass('hover')) {
+      $card.removeClass('hover');
+    } else {
+      $card.addClass('hover');
+    }
+  }
 </script>
+
 
 </body>
 
