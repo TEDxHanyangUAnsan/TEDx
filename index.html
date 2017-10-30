@@ -36,29 +36,20 @@
 		<p>지우</p>
 	</div>
 	<!--지우 끝-->
+	<!-- 박예찬 -->
 	<div class="section" id="section1">
-
-		<div class="intro">
-			<h1 class="wow fadeInDown" data-wow-delay="0.1s">주제설명</h1>
-			<p>예찬</p>
-		</div>
-
+		<h1 class="wow fadeInDown" data-wow-delay="0.1s">주제설명</h1>
+		<p>예찬</p>
 	</div>
+	<!-- 예찬 끝 -->
 	<div class="section" id="section2">
-		<div class="intro">
-			<h1 class="wow fadeInLeft">연사자</h1>
-			<p>현종</p>
-		</div>
+		<h1 class="wow fadeInLeft">연사자</h1>
+		<p>현종</p>
 	</div>
 	<div class="section" id="section3">
 		<!-- 윤지우 -->
-		<div class="intro">
-			<h1>테드엑스 설명</h1>
-			<p>
-				지우
-				<br/><br/><br/><br/><br/><br/>
-			</p>
-		</div>
+		<h1 class="wow fadeInUp">테드엑스 설명</h1>
+		<p>지우</p>
 		<!--지우 끝-->
 
 	</div>
@@ -348,21 +339,21 @@
 
 
 	</div>
+	<!-- 박예찬 -->
 	<div class="section" id="section5">
 		<div class="intro">
 			<h1>스폰서</h1>
 			<p>
 				예찬
-				<br/><br/><br/><br/><br/><br/>
 			</p>
 		</div>
 	</div>
+	<!-- 예찬 끝 -->
 	<div class="section" id="section6">
 		<div class="intro">
 			<h1>Contact</h1>
 			<p>
 				현종
-				<br/><br/><br/><br/><br/><br/>
 			</p>
 		</div>
 	</div>
@@ -399,23 +390,20 @@
       slidesNavigation: true,
 
       scrollingSpeed: 600,
+      afterRender: function () {
+      },
       afterLoad: function (anchorLink, index) {
-        if(anchorLink === 'title' || 'subject'){
+        if (anchorLink === 'title' || 'subject' || 'speaker') {
           if ($('#menu li').hasClass('active')) {
             $('#menu li a').css('color', 'white');
-            $('#menu li.active a').css('color','white');
+            $('#menu li.active a').css('color', 'white');
           }
         }
-        if(anchorLink === 'speaker'){
+
+        if (anchorLink === 'about') {
           if ($('#menu li').hasClass('active')) {
             $('#menu li a').css('color', 'black');
-            $('#menu li.active a').css('color','white');
-          }
-        }
-        if(anchorLink === 'about'){
-          if ($('#menu li').hasClass('active')) {
-            $('#menu li a').css('color', 'white');
-            $('#menu li.active a').css('color','white');
+            $('#menu li.active a').css('color', 'white');
           }
         }
         //using anchorLink
