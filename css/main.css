@@ -84,15 +84,32 @@ body {
     background-attachment: fixed;
 }
 
-#section0, #section1 {
-    background-image: url(../imgs/bg3.jpg);
+#section0 {
+    background-image: url(../imgs/background.jpeg);
 }
+#section1{
+    background-image:url(../imgs/background.jpeg);
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+#section1.active{
+    background-image:url(../imgs/background.jpeg);
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.2);
+}
+
 
 .wrap {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
     position: relative;
+}
+.listBlack{
+    color:black
 }
 
 
@@ -135,7 +152,7 @@ body {
 }
 
 #menu li a {
-    color: #000;
+    color: #fff;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
