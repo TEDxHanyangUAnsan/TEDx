@@ -52,13 +52,16 @@ $(document).ready(function () {
 
             }
             //using anchorLink
-
         },
         onLeave: function (index, nextIndex, direction) {
 
             if ($('.wow').hasClass('animated')) {
                 $('.wow').removeClass('animated');
                 $('.wow').removeAttr('style');
+            }
+            if(index === 4){
+                $('#menu li a').css('color', 'black');
+
             }
             new WOW().init();
         }
