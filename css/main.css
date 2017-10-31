@@ -86,10 +86,10 @@ body {
 }
 
 #section0 {
-    background-image: url(../imgs/background.jpg);
+    background-image: url(../imgs/background.jpeg);
 }
 #section1{
-    background-image:url(../imgs/background.jpg);
+    background-image:url(../imgs/background.jpeg);
     -webkit-transition-property: all;
     transition-property: all;
     -webkit-transition-duration: 0.7s;
@@ -266,6 +266,7 @@ body {
 #applybutton:hover:before {
     content: "신청하기"
 }
+
 
 
 
