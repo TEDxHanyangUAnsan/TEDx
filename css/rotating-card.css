@@ -18,12 +18,24 @@ body {
         margin-bottom: 30px;
 }
 /* flip the pane when hovered */
-.card-container:not(.manual-flip):hover .card,
-.card-container.hover.manual-flip .card{
+.card-container:not(.manual-flip):hover .card
+{
 	-webkit-transform: rotateY( 180deg );
 -moz-transform: rotateY( 180deg );
  -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
+}
+.card-container.active.manual-flip .card{
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+.card-container.manual-flip:hover .card{
+    -webkit-transform: rotateY( -20deg );
+    -moz-transform: rotateY( -20deg );
+    -o-transform: rotateY( -20deg );
+    transform: rotateY( -20deg );
 }
 
 

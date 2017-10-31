@@ -77,9 +77,13 @@ $().ready(function () {
 function rotateCard(btn) {
     var $card = $(btn).closest('.card-container');
     console.log($card);
-    if ($card.hasClass('hover')) {
-        $card.removeClass('hover');
+    if ($card.hasClass('active')) {
+        $card.removeClass('active');
+
     } else {
-        $card.addClass('hover');
+        $card.removeClass('manual-flip active');
+
+        console.log($card);
+
     }
 }
