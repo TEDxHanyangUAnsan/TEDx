@@ -16,8 +16,6 @@ $(document).ready(function () {
 
             if (anchorLink === 'title' || 'subject' || 'speaker') {
 
-
-
                 $('#menu li a').css('color', 'white');
                 $('#menu li.active a').css('color', 'white');
                 $("#menu li a").hover(function(){
@@ -81,7 +79,7 @@ function rotateCard(btn) {
         $card.removeClass('active');
 
     } else {
-        $card.removeClass('manual-flip active');
+        $card.addClass('active');
 
         console.log($card);
 
