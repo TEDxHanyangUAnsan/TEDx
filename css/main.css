@@ -89,7 +89,7 @@ body {
     background-image: url(../imgs/background.jpeg);
 }
 #section1{
-    background-image:url(../imgs/background.jpeg);
+    background-image:url(../imgs/backgroundDark.jpeg);
     -webkit-transition-property: all;
     transition-property: all;
     -webkit-transition-duration: 0.7s;
@@ -134,9 +134,11 @@ body {
 }
 
 #menu li {
-    font-size: 15pt;
+    font-size: 13pt;
+    font-weight: 300;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    vertical-align: middle;
     -webkit-transition-property: margin-top, margin-bottom;
     transition-property: margin-top, margin-bottom, font-size;
     -webkit-transition-duration: 0.7s;
@@ -153,9 +155,10 @@ body {
 }
 
 #menu li a {
+    padding-left: 5%;
+    padding-right:5%;
     color: #fff;
     display: inline-block;
-    vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
@@ -171,10 +174,10 @@ body {
     content: "";
     position: absolute;
     z-index: -1;
-    top: 0;
+    top: 2px;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 5px;
     background-color: red;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -182,8 +185,8 @@ body {
     transform-origin: 0 50%;
     -webkit-transition-property: transform;
     transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 
@@ -192,7 +195,6 @@ body {
 #menu li.active a, #menu li.active a:hover {
     color: white;
     font-weight: 900;
-    padding: 3% 8% 3% 8%;
 
 }
 
