@@ -13,9 +13,24 @@ $(document).ready(function () {
 
         },
         afterLoad: function (anchorLink, index) {
+            if(anchorLink === 'title'){
+                $('#applybutton').addClass('hasDisplay');
+                $('#menu li a').css('color', 'white');
+                $('#menu li.active a').css('color', 'white');
+                $("#menu li a").hover(function(){
+                    $(this).css("color", "red");
+                }, function(){
+                    $(this).css("color", "white");
+                });
+                $("#menu li.active a").hover(function(){
+                    $(this).css("color", "white");
+                }, function(){
+                    $(this).css("color", "white");
+                });
 
-            if (anchorLink === 'title' || 'subject' || 'speaker') {
-
+            }
+            if (anchorLink === 'subject' || 'speaker') {
+                $('#applybutton').removeClass('hasDisplay');
                 $('#menu li a').css('color', 'white');
                 $('#menu li.active a').css('color', 'white');
                 $("#menu li a").hover(function(){
@@ -33,7 +48,7 @@ $(document).ready(function () {
             }
 
             if (anchorLink === 'about') {
-
+                $('#applybutton').removeClass('hasDisplay');
                 $('#menu li a').css('color', 'black');
                 $('#menu li.active a').css('color', 'white');
                 $("#menu li a").hover(function(){
@@ -46,6 +61,9 @@ $(document).ready(function () {
                 }, function(){
                     $(this).css("color", "white");
                 });
+
+
+
 
 
             }
