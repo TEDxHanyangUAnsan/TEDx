@@ -224,7 +224,6 @@ body {
     top: 68px;
     width: 82px;
     height: 82px;
-    background-color: grey;
     z-index: 70;
     border: none;
     cursor: pointer;
@@ -271,16 +270,3 @@ body {
 #applybutton:hover:before {
     content: "신청하기"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

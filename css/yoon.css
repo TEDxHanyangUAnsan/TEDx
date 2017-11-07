@@ -1,0 +1,75 @@
+@font-face{
+	font-family:'KoPub Batang Bold';
+	src: url('../fonts/KoPub Batang Bold.ttf');
+}
+@font-face{
+	font-family:'KoPub Dotum Medium';
+	src: url('../fonts/KoPub Dotum Medium.ttf');
+}
+
+#menu > li > a {
+	color: #cccccc !important;
+}
+#section0 > div {
+	vertical-align: bottom;
+}
+#section0 > div > p {
+	margin-bottom: 80px;
+	color: #dfd7ff;
+	font-family: "Helvetica light";
+	font-size: 26px;
+	font-weight: lighter;
+}
+#section0 > div > h1 {
+	font-size: 45px;
+	color: #ede9ff;
+	font-family: "KoPub Batang Bold";
+}
+#applybutton > span {
+	font-size: 30px;
+	color: #fff;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+#section3 {
+	background: url("../imgs/abouttedx.jpg");
+	background-size: cover;
+}
+
+.abouttedx {
+	display: flex;
+	justify-content: space-between;
+}
+.tedxeng {
+	width: 448px;
+	height: 394px;
+	background-color: #000000;
+	padding: 30px;
+}
+.tedxeng>p {
+	color: #fff;
+	font-family: Helvetica;
+	font-weight: lighter;
+	font-size: 15px;
+	text-align: left;
+}
+.tedxkor>p {
+	color: #fff;
+	font-family: "KoPub Dotum Medium";
+	font-size: 15px;
+	text-align: left;
+}
+.tedxkor {
+	width: 448px;
+	height: 394px;
+	background-color: #000000;
+	padding: 30px;
+}
+#tedxlogo {
+
+	margin-left: 60px;
+	margin-bottom: 30px;
+}
+.tedxlogowrapper {
+	text-align: left;
+}
