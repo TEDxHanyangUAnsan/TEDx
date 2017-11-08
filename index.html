@@ -375,7 +375,7 @@ The TED Conference provides general guidance for the TEDx program, but individua
 </div>
 
 <a class="list" href="#title">
-	<img id="homebutton" src="./imgs/clock.png" alt="">
+	<img id="homebutton" src="./imgs/clock.png" onmouseover="hover(this);" onmouseout="unhover(this);" alt="">
 </a>
 
 <button id="applybutton">
@@ -390,7 +390,14 @@ The TED Conference provides general guidance for the TEDx program, but individua
 <script type="text/javascript" src="js/wow.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
+<script>
+function hover(element) {
+	element.setAttribute('src', './imgs/clockred.png');
+}
+function unhover(element) {
+	element.setAttribute('src', './imgs/clock.png');
+}
+</script>
 
 
 </body>
