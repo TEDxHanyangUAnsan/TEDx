@@ -1,12 +1,8 @@
-/*@font-face{
-	font-family:'KoPub Batang Bold';
-	src: url('../fonts/KoPub Batang Bold.ttf');
-}*/
 @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
-@font-face{
+/*@font-face{
 	font-family:'KoPub Dotum Medium';
 	src: url('../fonts/KoPub Dotum Medium.ttf');
-}
+}*/
 
 #menu > li > a {
 	color: #cccccc !important;
@@ -57,7 +53,7 @@
 }
 .tedxkor>p {
 	color: #fff;
-	font-family: "KoPub Dotum Medium";
+	font-family: "KoPub Batang";
 	font-size: 15px;
 	text-align: left;
 }
