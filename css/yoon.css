@@ -2,7 +2,7 @@
 	font-family:'KoPub Batang Bold';
 	src: url('../fonts/KoPub Batang Bold.ttf');
 }*/
-@import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
 @font-face{
 	font-family:'KoPub Dotum Medium';
 	src: url('../fonts/KoPub Dotum Medium.ttf');
@@ -17,14 +17,14 @@
 #section0 > div > p {
 	margin-bottom: 80px;
 	color: #dfd7ff;
-	font-family: "Helvetica light";
+	font-family: "Helvetica light", sans-serif;
 	font-size: 26px;
 	font-weight: lighter;
 }
 #section0 > div > h1 {
 	font-size: 45px;
 	color: #ede9ff;
-	font-family: "KoPub Batang";
+	font-family: "KoPub Batang", serif;
 	font-weight: bold;
 }
 #applybutton > span {
