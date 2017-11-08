@@ -86,10 +86,10 @@ body {
 }
 
 #section0 {
-    background-image: url(../imgs/background.jpeg);
+    background-image: url(../imgs/page1.jpg);
 }
 #section1{
-    background-image:url(../imgs/backgroundDark.jpeg);
+    background-image:url(../imgs/page2.jpg);
     -webkit-transition-property: all;
     transition-property: all;
     -webkit-transition-duration: 0.7s;
