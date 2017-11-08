@@ -30,7 +30,7 @@ $(document).ready(function () {
                     $(this).css("color", "#cccccc");
                 });
                 $("#menu li.active a").hover(function(){
-                    $(this).css("color", "#cccccc");
+                    $(this).css("color", "white");
                 }, function(){
                     $(this).css("color", "#cccccc");
                 });
@@ -51,7 +51,7 @@ $(document).ready(function () {
                     $(this).css("color", "#cccccc");
                 });
                 $("#menu li.active a").hover(function(){
-                    $(this).css("color", "#cccccc");
+                    $(this).css("color", "white");
                 }, function(){
                     $(this).css("color", "#cccccc");
                 });
@@ -73,7 +73,7 @@ $(document).ready(function () {
                     $(this).css("color", "#cccccc");
                 });
                 $("#menu li.active a").hover(function(){
-                    $(this).css("color", "#cccccc");
+                    $(this).css("color", "white");
                 }, function(){
                     $(this).css("color", "#cccccc");
                 });
@@ -93,7 +93,7 @@ $(document).ready(function () {
                     $(this).css("color", "#cccccc");
                 });
                 $("#menu li.active a").hover(function(){
-                    $(this).css("color", "#cccccc");
+                    $(this).css("color", "white");
                 }, function(){
                     $(this).css("color", "#cccccc");
                 });
@@ -116,7 +116,7 @@ $(document).ready(function () {
                 $("#menu li.active a").hover(function(){
                     $(this).css("color", "white");
                 }, function(){
-                    $(this).css("color", "white");
+                    $(this).css("color", "#cccccc");
                 });
             }
 
@@ -137,7 +137,7 @@ $(document).ready(function () {
                 $("#menu li.active a").hover(function(){
                     $(this).css("color", "white");
                 }, function(){
-                    $(this).css("color", "white");
+                    $(this).css("color", "#cccccc");
                 });
             }
 
@@ -158,7 +158,7 @@ $(document).ready(function () {
                 $("#menu li.active a").hover(function(){
                     $(this).css("color", "white");
                 }, function(){
-                    $(this).css("color", "white");
+                    $(this).css("color", "#cccccc");
                 });
             }
             //using anchorLink
