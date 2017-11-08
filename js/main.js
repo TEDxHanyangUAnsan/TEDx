@@ -13,54 +13,101 @@ $(document).ready(function () {
 
         },
         afterLoad: function (anchorLink, index) {
-            if(anchorLink == 'title'){
+            if(index == 1){
+                console.log('title');
                 // $('#applybutton').addClass('fadeOutRight');
                 if($('#applybutton').hasClass('fadeInRight')){
                     $('#applybutton').removeClass('fadeInRight');
                     $('#applybutton').addClass('fadeOutRight');
                 } else {
-                    $('#applybutton').css('display','none');
+                    $('#applybutton').css('display');
                 }
-                $('#menu li a').css('color', 'white');
-                $('#menu li.active a').css('color', 'white');
+                $('#menu li a').css('color', '#cccccc');
+                $('#menu li.active a').css('color', '#cccccc');
                 $("#menu li a").hover(function(){
                     $(this).css("color", "red");
                 }, function(){
-                    $(this).css("color", "white");
+                    $(this).css("color", "#cccccc");
                 });
                 $("#menu li.active a").hover(function(){
-                    $(this).css("color", "white");
+                    $(this).css("color", "#cccccc");
                 }, function(){
-                    $(this).css("color", "white");
+                    $(this).css("color", "#cccccc");
                 });
 
             }
-            else if (anchorLink == 'subject' || 'speaker') {
-                // alert('!!!');
+            else if (index == 2) {
+                console.log('subject');
+
                 $('#applybutton').removeClass('fadeOutRight');
                 $('#applybutton').css('display','inline-block');
                 $('#applybutton').addClass('animated fadeInRight');
 
-                $('#menu li a').css('color', 'white');
-                $('#menu li.active a').css('color', 'white');
+                $('#menu li a').css('color', '#cccccc');
+                $('#menu li.active a').css('color', '#cccccc');
                 $("#menu li a").hover(function(){
                     $(this).css("color", "red");
                 }, function(){
-                    $(this).css("color", "white");
+                    $(this).css("color", "#cccccc");
                 });
                 $("#menu li.active a").hover(function(){
-                    $(this).css("color", "white");
+                    $(this).css("color", "#cccccc");
                 }, function(){
-                    $(this).css("color", "white");
+                    $(this).css("color", "#cccccc");
+                });
+            }
+            else if (index == 3) {
+                console.log('speaker');
+
+                $('#applybutton').removeClass('fadeOutRight');
+                $('#applybutton').css('display','inline-block');
+                $('#applybutton').addClass('animated fadeInRight');
+
+
+
+                $('#menu li a').css('color', '#cccccc');
+                $('#menu li.active a').css('color', '#cccccc');
+                $("#menu li a").hover(function(){
+                    $(this).css("color", "red");
+                }, function(){
+                    $(this).css("color", "#cccccc");
+                });
+                $("#menu li.active a").hover(function(){
+                    $(this).css("color", "#cccccc");
+                }, function(){
+                    $(this).css("color", "#cccccc");
                 });
 
+            }
+            else if(index == 4){
+                console.log('about');
+                $('#applybutton').removeClass('fadeOutRight');
+                $('#applybutton').css('display','inline-block');
+                $('#applybutton').addClass('animated fadeInRight');
 
+                $('#menu li a').css('color', '#cccccc');
+                $('#menu li.active a').css('color', '#cccccc');
+                $("#menu li a").hover(function(){
+                    $(this).css("color", "red");
+                }, function(){
+                    $(this).css("color", "#cccccc");
+                });
+                $("#menu li.active a").hover(function(){
+                    $(this).css("color", "#cccccc");
+                }, function(){
+                    $(this).css("color", "#cccccc");
+                });
             }
 
-            else if(anchorLink == 'about') {
+            else if(index == 5) {
+                console.log('profile');
+                $('#applybutton').removeClass('fadeOutRight');
+                $('#applybutton').css('display','inline-block');
+                $('#applybutton').addClass('animated fadeInRight');
+
                 // $('#applybutton').removeClass('hasDisplay');
                 $('#menu li a').css('color', 'black');
-                $('#menu li.active a').css('color', 'white');
+                $('#menu li.active a').css('color', '#cccccc');
                 $("#menu li a").hover(function(){
                     $(this).css("color", "red");
                 }, function(){
@@ -71,11 +118,48 @@ $(document).ready(function () {
                 }, function(){
                     $(this).css("color", "white");
                 });
+            }
 
+            else if(index == 6) {
+                console.log('sponsor');
+                $('#applybutton').removeClass('fadeOutRight');
+                $('#applybutton').css('display','inline-block');
+                $('#applybutton').addClass('animated fadeInRight');
 
+                // $('#applybutton').removeClass('hasDisplay');
+                $('#menu li a').css('color', 'black');
+                $('#menu li.active a').css('color', '#cccccc');
+                $("#menu li a").hover(function(){
+                    $(this).css("color", "red");
+                }, function(){
+                    $(this).css("color", "black");
+                });
+                $("#menu li.active a").hover(function(){
+                    $(this).css("color", "white");
+                }, function(){
+                    $(this).css("color", "white");
+                });
+            }
 
+            else if(index == 7) {
+                console.log('contact');
+                $('#applybutton').removeClass('fadeOutRight');
+                $('#applybutton').css('display','inline-block');
+                $('#applybutton').addClass('animated fadeInRight');
 
-
+                // $('#applybutton').removeClass('hasDisplay');
+                $('#menu li a').css('color', 'black');
+                $('#menu li.active a').css('color', '#cccccc');
+                $("#menu li a").hover(function(){
+                    $(this).css("color", "red");
+                }, function(){
+                    $(this).css("color", "black");
+                });
+                $("#menu li.active a").hover(function(){
+                    $(this).css("color", "white");
+                }, function(){
+                    $(this).css("color", "white");
+                });
             }
             //using anchorLink
         },
