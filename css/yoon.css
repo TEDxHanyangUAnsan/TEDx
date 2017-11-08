@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 /*@font-face{
 	font-family:'KoPub Dotum Medium';
 	src: url('../fonts/KoPub Dotum Medium.ttf');
@@ -53,7 +54,7 @@
 }
 .tedxkor>p {
 	color: #fff;
-	font-family: "KoPub Batang";
+	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 15px;
 	text-align: left;
 }
