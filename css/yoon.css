@@ -1,7 +1,8 @@
-@font-face{
+/*@font-face{
 	font-family:'KoPub Batang Bold';
 	src: url('../fonts/KoPub Batang Bold.ttf');
-}
+}*/
+@import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);
 @font-face{
 	font-family:'KoPub Dotum Medium';
 	src: url('../fonts/KoPub Dotum Medium.ttf');
@@ -23,7 +24,8 @@
 #section0 > div > h1 {
 	font-size: 45px;
 	color: #ede9ff;
-	font-family: "KoPub Batang Bold";
+	font-family: "KoPub Batang";
+	font-weight: bold;
 }
 #applybutton > span {
 	font-size: 30px;
