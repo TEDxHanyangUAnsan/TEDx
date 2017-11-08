@@ -20,7 +20,7 @@ $(document).ready(function () {
                     $('#applybutton').removeClass('fadeInRight');
                     $('#applybutton').addClass('fadeOutRight');
                 } else {
-                    $('#applybutton').css('display');
+                    $('#applybutton').css('display','none');
                 }
                 $('#menu li a').css('color', '#cccccc');
                 $('#menu li.active a').css('color', '#cccccc');
