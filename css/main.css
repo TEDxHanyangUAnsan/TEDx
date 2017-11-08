@@ -89,7 +89,7 @@ body {
     background-image: url(../imgs/page1.png);
 }
 #section1{
-    background-image:url(../imgs/page2.jpg);
+    background-image: url(../imgs/page2.jpg);
     -webkit-transition-property: all;
     transition-property: all;
     -webkit-transition-duration: 0.7s;
@@ -98,7 +98,7 @@ body {
     transition-timing-function: ease-out;
 }
 #section1.active{
-    background-image:url(../imgs/background.jpg);
+    background-image:url(../imgs/page2.jpg);
     box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.2);
 }
 
