@@ -14,8 +14,13 @@ $(document).ready(function () {
         },
         afterLoad: function (anchorLink, index) {
             if(anchorLink == 'title'){
-
-                $('#applybutton').css('display','none');
+                // $('#applybutton').addClass('fadeOutRight');
+                if($('#applybutton').hasClass('fadeInRight')){
+                    $('#applybutton').removeClass('fadeInRight');
+                    $('#applybutton').addClass('fadeOutRight');
+                } else {
+                    $('#applybutton').css('display','none');
+                }
                 $('#menu li a').css('color', 'white');
                 $('#menu li.active a').css('color', 'white');
                 $("#menu li a").hover(function(){
@@ -32,7 +37,10 @@ $(document).ready(function () {
             }
             else if (anchorLink == 'subject' || 'speaker') {
                 // alert('!!!');
+                $('#applybutton').removeClass('fadeOutRight');
                 $('#applybutton').css('display','inline-block');
+                $('#applybutton').addClass('animated fadeInRight');
+
                 $('#menu li a').css('color', 'white');
                 $('#menu li.active a').css('color', 'white');
                 $("#menu li a").hover(function(){
@@ -50,7 +58,7 @@ $(document).ready(function () {
             }
 
             else if(anchorLink == 'about') {
-                $('#applybutton').removeClass('hasDisplay');
+                // $('#applybutton').removeClass('hasDisplay');
                 $('#menu li a').css('color', 'black');
                 $('#menu li.active a').css('color', 'white');
                 $("#menu li a").hover(function(){
