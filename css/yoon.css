@@ -1,9 +1,13 @@
-@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+/*@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);*/
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-/*@font-face{
+@font-face{
+	font-family:'KoPub Batang Medium';
+	src: url('../fonts/KoPub Batang Medium.ttf');
+}
+@font-face{
 	font-family:'KoPub Dotum Medium';
 	src: url('../fonts/KoPub Dotum Medium.ttf');
-}*/
+}
 
 
 #section0 > div {
@@ -19,8 +23,8 @@
 #section0 > div > h1 {
 	font-size: 45px;
 	color: #ede9ff;
-	font-family: "KoPub Batang", serif;
-	font-weight: bold;
+	font-family: "KoPub Batang Medium", serif;
+	/*font-weight: 300;*/
 }
 #applybutton > span {
 	font-size: 30px;
@@ -42,6 +46,7 @@
 	height: 394px;
 	background-color: #000000;
 	padding: 30px;
+	/*opacity: 0.8;*/
 }
 .tedxeng>p {
 	color: #fff;
@@ -52,7 +57,7 @@
 }
 .tedxkor>p {
 	color: #fff;
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: 'KoPub Dotum Medium', sans-serif;
 	font-size: 15px;
 	text-align: left;
 }
@@ -61,6 +66,7 @@
 	height: 394px;
 	background-color: #000000;
 	padding: 30px;
+	/*opacity: 0.8;*/
 }
 #tedxlogo {
 

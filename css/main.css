@@ -86,7 +86,9 @@ body {
 }
 
 #section0 {
-    background-image: url(../imgs/page1.png);
+
+		background:linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0)), url(../imgs/page1.png), no-repeat, center;
+	background-size: cover;
 }
 #section1{
     background-image: url(../imgs/page2.png);
