@@ -10,7 +10,7 @@
 	vertical-align: bottom;
 }
 #section0 > div > p {
-	margin-bottom: 80px;
+	margin-bottom: 73px;
 	color: #dfd7ff;
 	font-family: "Helvetica light", sans-serif;
 	font-size: 26px;
@@ -69,4 +69,14 @@
 }
 .tedxlogowrapper {
 	text-align: left;
+}
+
+@media (min-width: 1441px) {
+	#section0 > div > p {
+		margin-bottom: 100px;
+		color: #dfd7ff;
+		font-family: "Helvetica light", sans-serif;
+		font-size: 26px;
+		font-weight: lighter;
+	}
 }
