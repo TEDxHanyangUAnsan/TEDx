@@ -173,6 +173,9 @@ $(document).ready(function () {
 
             }
             new WOW().init();
+        },
+        afterResponsive: function(isResponsive){
+            alert("Is responsive: " + isResponsive);
         }
     });
 
