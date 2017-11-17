@@ -1,7 +1,7 @@
 $(document).ready(function () {
     new WOW().init();
     $('#fullpage').fullpage({
-        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff','whitesmoke','#000000'],
         anchors: ['title', 'subject', 'speaker', 'about', 'profile', 'sponsor', 'contact'],
         menu: '#menu',
         scrollBar: true,
@@ -147,12 +147,12 @@ $(document).ready(function () {
                 $('#applybutton').addClass('animated fadeInRight');
 
                 // $('#applybutton').removeClass('hasDisplay');
-                $('#menu li a').css('color', 'black');
+                $('#menu li a').css('color', 'white');
                 $('#menu li.active a').css('color', '#cccccc');
                 $("#menu li a").hover(function(){
                     $(this).css("color", "red");
                 }, function(){
-                    $(this).css("color", "black");
+                    $(this).css("color", "#cccccc");
                 });
                 $("#menu li.active a").hover(function(){
                     $(this).css("color", "white");

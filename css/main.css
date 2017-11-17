@@ -91,7 +91,6 @@ body {
 }
 #section1{
     background-image: url(../imgs/page2.png);
-    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.1);
 
 
 }
@@ -169,11 +168,11 @@ body {
     content: "";
     position: absolute;
     z-index: -1;
-    top: 1px;
+    top: 5px;
     left: 0;
     right: 0;
     bottom: 5px;
-    background-color: red;
+    background-color: #e62b1e;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -188,7 +187,7 @@ body {
 }
 
 #menu li.active a, #menu li.active a:hover {
-    color: cccccc;
+    color: #cccccc;
     font-weight: 800;
 
 }
@@ -233,7 +232,7 @@ body {
     width: 208px;
     border: none;
     height: 74px;
-    background-color: red;
+    background-color: #e62b1e;
     z-index: 70;
     -webkit-transition-property: all;
     transition-property: all;
@@ -267,5 +266,9 @@ body {
 }
 
 #applybutton:hover:before {
-    content: "신청하기"
+    content: "신청하기";
+    font-size: 30px;
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: bold;
 }
