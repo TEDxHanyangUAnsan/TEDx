@@ -168,7 +168,7 @@ body {
     content: "";
     position: absolute;
     z-index: -1;
-    top: 5px;
+    top: 1px;
     left: 0;
     right: 0;
     bottom: 5px;
