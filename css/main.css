@@ -206,8 +206,7 @@ body {
     margin-top: 51px;
     margin-left: 53px;
     position: fixed;
-    top: 0;
-    left: 0;
+
     height: 40px;
     z-index: 70;
 }

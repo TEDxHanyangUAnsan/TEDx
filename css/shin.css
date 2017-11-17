@@ -46,3 +46,28 @@
     flex:4;
     height:400px;
 }
+.footer{
+    text-align: center;
+
+
+
+}
+
+.footerImg{
+    position: absolute;
+    bottom: 2%;
+    left:2%;
+    width: 250px;
+    height: auto;
+}
+.footerText{
+    color: #808080;
+    position: absolute;
+    bottom: 2%;
+    left:34%;
+    font-family: Helvetica,sans-serif;
+    font-size: 15px;
+    vertical-align: bottom;
+    font-weight: bold;
+
+}
