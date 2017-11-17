@@ -4,7 +4,6 @@ $(document).ready(function () {
         sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
         anchors: ['title', 'subject', 'speaker', 'about', 'profile', 'sponsor', 'contact'],
         menu: '#menu',
-        fadingEffect: true,
         scrollBar: true,
         slidesNavigation: true,
 
@@ -196,4 +195,15 @@ function rotateCard(btn) {
         console.log($card);
 
     }
+}
+
+function expandCard(index) {
+    for(var i = 1; i<5; i++ ){
+        var $selectedCard = $('.speaker'+i);
+        if($selectedCard.hasClass('big')){
+            $selectedCard.removeClass('big');
+            $selectedCard.addClass('small');
+        }
+    }
+    $('.speaker'+index).addClass('big');
 }

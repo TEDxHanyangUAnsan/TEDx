@@ -1,0 +1,47 @@
+.speakers{
+    display: flex;
+    flex-direction: row;
+}
+.speaker1, .speaker2, .speaker3, .speaker4{
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.speaker1{
+     background-color: red;
+     margin-left: 15%;
+     margin-right: 2%;
+
+ }
+.speaker2{
+    flex:1;
+    margin-right: 2%;
+    height:400px;
+    background-color: yellowgreen;
+}
+
+.speaker3{
+    flex:1;
+    margin-right: 2%;
+    height:400px;
+    background-color: lightseagreen;
+}
+.speaker4{
+    flex:1;
+    margin-right: 15%;
+    height:400px;
+
+    background-color: darkseagreen;
+}
+.small{
+    flex:1;
+    height:400px;
+}
+
+.big{
+    flex:4;
+    height:400px;
+}
