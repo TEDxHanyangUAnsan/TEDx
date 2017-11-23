@@ -1,0 +1,27 @@
+@font-face{
+    font-family:'KoPub Batang Medium';
+    src: url('../fonts/KoPub Batang Medium.ttf');
+}
+@font-face{
+    font-family:'KoPub Dotum Medium';
+    src: url('../fonts/KoPub Dotum Medium.ttf');
+}
+#sec2 {
+    color: red;
+}
+.sec1 {
+    margin-top: 300px;
+    margin-left: 300px;
+    text-align: left;
+
+}
+.subject_title > p {
+    font-family: "KoPub Batang Medium", serif;
+    font-size: 36px;
+    color: #ede9ff;
+}
+.subject_text > p{
+    font-family: "KoPub Dotum Medium", serif;
+    color: #dfd7ff;
+    font-size: 18px;
+}
