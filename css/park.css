@@ -31,6 +31,7 @@
 .subject_contents{
 		display:flex;
 }
+
 nav, aside{
 		flex-shrink: 0;
 }
@@ -50,11 +51,11 @@ main {
 }
 .subject_title > p {
   font-family: "KoPub Batang Medium", serif;
-  font-size: 36px;
+  font-size: 33px;
 	color: #ede9ff;
 }
 .subject_text > p{
 	font-family: "KoPub Dotum Medium", serif;
 	color: #dfd7ff;
-	font-size: 18px;
+	font-size: 15px;
 }
