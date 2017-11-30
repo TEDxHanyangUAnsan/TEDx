@@ -8,6 +8,8 @@
 }
 #section5 {
 	background: url("../imgs/sponsor.png");
+	background-size: cover;
+
 }
 .sponsor_box {
 	margin-left:15%;
