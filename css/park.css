@@ -12,7 +12,7 @@
 }
 .subject_contents{
 		display:flex;
-		margin-left: 300px
+		/*margin-left: 300px*/
 }
 nav, aside{
 		flex-shrink: 0;
