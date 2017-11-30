@@ -17,6 +17,9 @@
 nav, aside{
 		flex-shrink: 0;
 }
+main {
+	flex-shrink: 0;
+}
 .sec1 {
 	margin-top: 300px;
   text-align: left;
