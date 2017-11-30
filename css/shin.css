@@ -10,9 +10,12 @@
     -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
     cursor: pointer;
+    background-color: black;
+    display: flex;
+
 }
+
 .speaker1{
-     background-color: red;
      margin-left: 15%;
      margin-right: 1%;
 
@@ -21,21 +24,18 @@
     flex:1;
     margin-right: 1%;
     height:400px;
-    background-color: yellowgreen;
 }
 
 .speaker3{
     flex:1;
     margin-right: 1%;
     height:400px;
-    background-color: lightseagreen;
 }
 .speaker4{
     flex:1;
     margin-right: 15%;
     height:400px;
 
-    background-color: darkseagreen;
 }
 .small{
     flex:1;
@@ -69,5 +69,33 @@
     font-size: 15px;
     vertical-align: bottom;
     font-weight: bold;
+
+}
+.name{
+    margin-top: 70%;
+    color:white;
+}
+.name_section{
+    flex:1;
+
+}
+.from_section{
+    flex:1;
+    display:flex;
+    align-items: center;
+
+}
+.from_container{
+    transform: rotate(90deg);
+    transform-origin: top right;
+    padding-left:10%;
+
+}
+.from{
+    letter-spacing: 1px;
+    font-size: 15px;
+    color:white;
+    width: 155%;
+
 
 }

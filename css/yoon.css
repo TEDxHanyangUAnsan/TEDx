@@ -77,6 +77,25 @@
 	text-align: left;
 }
 
+.front, .back {
+    background-color: black;
+
+}
+.card-container {
+    width: 280px;
+    height: 410px;
+    padding: 30px;
+}
+.fp-controlArrow.fp-prev {
+    left: 16%;
+    border-color : #000;
+}
+
+.fp-controlArrow.fp-next {
+    right: 10%;
+    border-color : #000;
+}
+
 @media (min-width: 1441px) {
 	#section0 > div > p {
 		margin-bottom: 100px;
