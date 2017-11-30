@@ -1,7 +1,7 @@
 $(document).ready(function () {
     new WOW().init();
     $('#fullpage').fullpage({
-        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff','whitesmoke','#000000'],
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#3e2a75', '#3e2a75', '#3e2a75','#3e2a75','#000000'],
         anchors: ['title', 'subject', 'speaker', 'about', 'profile', 'sponsor', 'contact'],
         menu: '#menu',
         scrollBar: true,
@@ -105,12 +105,12 @@ $(document).ready(function () {
                 $('#applybutton').addClass('animated fadeInRight');
 
                 // $('#applybutton').removeClass('hasDisplay');
-                $('#menu li a').css('color', 'black');
+                $('#menu li a').css('color', '#cccccc');
                 $('#menu li.active a').css('color', '#cccccc');
                 $("#menu li a").hover(function(){
                     $(this).css("color", "red");
                 }, function(){
-                    $(this).css("color", "black");
+                    $(this).css("color", "#cccccc");
                 });
                 $("#menu li.active a").hover(function(){
                     $(this).css("color", "white");
@@ -126,7 +126,7 @@ $(document).ready(function () {
                 $('#applybutton').addClass('animated fadeInRight');
 
                 // $('#applybutton').removeClass('hasDisplay');
-                $('#menu li a').css('color', 'black');
+                $('#menu li a').css('color', '#cccccc');
                 $('#menu li.active a').css('color', '#cccccc');
                 $("#menu li a").hover(function(){
                     $(this).css("color", "red");
@@ -142,11 +142,17 @@ $(document).ready(function () {
 
             else if(index == 7) {
                 console.log('contact');
-                $('#applybutton').removeClass('fadeOutRight');
-                $('#applybutton').css('display','inline-block');
-                $('#applybutton').addClass('animated fadeInRight');
+                console.log($('#applybutton'));
+                if($('#applybutton').hasClass('fadeInRight')){
+                    $('#applybutton').removeClass('fadeInRight');
+                    $('#applybutton').addClass('fadeOutRight');
 
-                // $('#applybutton').removeClass('hasDisplay');
+                    console.log($('#applybutton'));
+
+                } else {
+                    $('#applybutton').css('display','none');
+                }
+
                 $('#menu li a').css('color', 'white');
                 $('#menu li.active a').css('color', '#cccccc');
                 $("#menu li a").hover(function(){
@@ -169,7 +175,7 @@ $(document).ready(function () {
                 $('.wow').removeAttr('style');
             }
             if(index === 4){
-                $('#menu li a').css('color', 'black');
+                $('#menu li a').css('color', '#cccccc');
 
             }
             new WOW().init();
