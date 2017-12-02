@@ -144,19 +144,39 @@
 		flex-direction: column;
 		align-items: center;
 	}
-	.tedxeng > p {
-		font-size: 12px;
-	}
 	.tedxkor > p {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.tedxeng {
-		width: 90%;
-		height: 45%;
-		margin-bottom:20px;
+		display: none;
 	}
 	.tedxkor {
 		width: 90%;
 		height: 45%;
+	}
+	.director-box {
+		flex-direction: column;
+	}
+	.director-box > h2 {
+		margin-left: 0px !important;
+		padding-right: 0px !important;
+		margin-bottom: 30px;
+	}
+	.director-box > div {
+		display: none;
+	}
+	.director-box > ul {
+		text-align: center !important;
+		padding-left: 0px !important;
+	}
+	#contact-heading {
+		margin-bottom: 30px !important;
+	}
+	.footerText {
+		display: none;
+	}
+	.sponsor_box {
+		margin-right: 10% !important;
+		margin-left: 10% !important;
 	}
 }
