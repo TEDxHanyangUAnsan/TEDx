@@ -179,4 +179,18 @@
 		margin-right: 10% !important;
 		margin-left: 10% !important;
 	}
+	.subject_container {
+		display: none;
+	}
+	.subject_img {
+		width: 220px;
+	}
+	.sec1 {
+		margin-left: 10% !important;
+		margin-right: 10% !important;
+		margin-top: 10% !important;
+	}
+	.center {
+		text-align: center;
+	}
 }
