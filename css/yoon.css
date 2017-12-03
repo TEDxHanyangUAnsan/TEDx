@@ -105,3 +105,92 @@
 		font-weight: lighter;
 	}
 }
+
+@media (max-width: 415px) {
+	#section0 > div > h1 {
+		font-size: 3.5rem;
+	}
+	#section0 > div > p {
+		font-size: 2.5rem;
+	}
+	#homebutton {
+		display: none;
+	}
+	#section0,#section1 ,#section2, #section3,#section4,#section5 {
+		background-size: cover;
+		background-position: center;
+	}
+	#applybutton {
+		display: none !important;
+	}
+	aside > img {
+		display: none;
+	}
+	.subject_title > p {
+		font-size: 2.5rem !important;
+	}
+	.subject_text > p {
+		font-size: 1.4rem !important;
+	}
+	a > img {
+		width: 2.5rem;
+	}
+	a + img {
+		width: 2.5rem;
+	}
+	.abouttedx {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		align-items: center;
+	}
+	.tedxkor > p {
+		font-size: 14px;
+	}
+	.tedxeng {
+		display: none;
+	}
+	.tedxkor {
+		width: 90%;
+		height: 45%;
+	}
+	.director-box {
+		flex-direction: column;
+	}
+	.director-box > h2 {
+		margin-left: 0px !important;
+		padding-right: 0px !important;
+		margin-bottom: 30px;
+	}
+	.director-box > div {
+		display: none;
+	}
+	.director-box > ul {
+		text-align: center !important;
+		padding-left: 0px !important;
+	}
+	#contact-heading {
+		margin-bottom: 30px !important;
+	}
+	.footerText {
+		display: none;
+	}
+	.sponsor_box {
+		margin-right: 10% !important;
+		margin-left: 10% !important;
+	}
+	.subject_container {
+		display: none;
+	}
+	.subject_img {
+		width: 220px;
+	}
+	.sec1 {
+		margin-left: 10% !important;
+		margin-right: 10% !important;
+		margin-top: 10% !important;
+	}
+	.center {
+		text-align: center;
+	}
+}

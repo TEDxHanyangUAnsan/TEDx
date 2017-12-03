@@ -9,21 +9,24 @@
 
 /* subject 프레임 */
 
-nav, aside{
+/* nav, aside{
 		flex-shrink: 0;
 }
 main {
 	flex-shrink: 0;
-}
+} */
 .sec1 {
-	/*margin-top: 10%;*/
+	width: 80%;
+	margin-left: 15%;
+	/* margin-top: 10%;
 	margin-left:15%;
 	margin-right: 15%;
 	padding-top:40px;
 	padding-bottom: 40px;
 	padding-left:30px;
-	padding-right:30px;
-  text-align: left;
+	padding-right:30px; */
+	text-align: left;
+	
 }
 
 .subject_container{
@@ -38,10 +41,11 @@ main {
 
 /* subject 안에 들어갈 내용 */
 
-.subject_title > p {
+.subject_title > h1 {
   font-family: "KoPub Batang Medium", serif;
   font-size: 33px;
 	color: #ede9ff;
+	margin-bottom: 50px;
 }
 .subject_text > p {
 	font-family: "KoPub Dotum Medium", serif;
