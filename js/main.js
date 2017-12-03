@@ -206,13 +206,60 @@ function rotateCard(btn) {
     }
 }
 
-function expandCard(index) {
+function expandCard(index,element) {
     for(var i = 1; i<5; i++ ){
-        var $selectedCard = $('.speaker'+i);
-        if($selectedCard.hasClass('big')){
-            $selectedCard.removeClass('big');
-            $selectedCard.addClass('small');
+        var $selectedCard = $('.speaker'+i).parent();
+        var $selectedImage = $('.speaker'+i).find('img');
+        if($selectedCard.hasClass('col-sm-5')){
+            $selectedCard.removeClass('col-sm-5');
+            console.log($selectedImage);
+            if($selectedImage[0].alt==="gudak"){
+                $('#speaker1').removeClass('big_image');
+                $('#speaker1').addClass('small_image');
+                $('#speaker1').attr("src","./imgs/gudakSmall.png");
+
+            }
+            else if($selectedImage[0].alt==="errday"){
+                $('#speaker2').removeClass('big_image');
+                $('#speaker2').addClass('small_image');
+                $('#speaker2').attr("src","./imgs/errdaySmall.png");
+            }
+            else if($selectedImage[0].alt==="note"){
+                $('#speaker3').removeClass('big_image');
+                $('#speaker3').addClass('small_image');
+                $('#speaker3').attr("src","./imgs/noteSmall.png");
+
+            }
+            else {
+                $('#speaker4').removeClass('big_image');
+                $('#speaker4').addClass('small_image');
+                $('#speaker4').attr("src","./imgs/noteSmall.png");
+
+            }
+            $selectedCard.addClass('col-sm-1');
         }
+
     }
-    $('.speaker'+index).addClass('big');
+    $('.speaker'+index).parent().removeClass('col-sm-1');
+    $('.speaker'+index).parent().addClass('col-sm-5');
+    if(element.alt === "gudak"){
+        element.setAttribute('src', './imgs/gudakBig.png');
+        element.setAttribute('class','big_image');
+    }
+    else if(element.alt === "errday"){
+        element.setAttribute('src', './imgs/errdayBig.png');
+        element.setAttribute('class','big_image');
+
+    }
+    else if(element.alt==="note"){
+        element.setAttribute('src', './imgs/noteBig.png');
+        element.setAttribute('class','big_image');
+
+    }
+    else  {
+        element.setAttribute('src', './imgs/noteBig.png');
+        element.setAttribute('class','big_image');
+    }
+
+
 }
