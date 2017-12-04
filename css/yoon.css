@@ -21,17 +21,10 @@
     font-weight: lighter;
 }
 #section0 > div > h1 {
-<<<<<<< HEAD
     font-size: 45px;
     color: #ede9ff;
     font-family: "KoPub Batang", serif;
     font-weight: 600;
-=======
-	font-size: 45px;
-	color: #ede9ff;
-	font-family: "KoPub Batang", serif;
-	font-weight: 600;
->>>>>>> 0dc2d6b6c470262a86c6af8281c588b116d3a262
 }
 #applybutton > span {
     font-size: 30px;
