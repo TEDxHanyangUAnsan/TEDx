@@ -170,7 +170,8 @@
 		padding-left: 0px !important;
 	}
 	#contact-heading {
-		margin-bottom: 30px !important;
+		margin-bottom: 30px;
+        font-size: 30px;
 	}
 	.footerText {
 		display: none;
