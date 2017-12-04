@@ -116,6 +116,15 @@
 }
 
 @media (max-width: 415px) {
+    .fp-controlArrow.fp-prev {
+        display: none;
+
+    }
+
+    .fp-controlArrow.fp-next {
+        display: none;
+
+    }
     #section0 > div > h1 {
         font-size: 3.5rem;
     }

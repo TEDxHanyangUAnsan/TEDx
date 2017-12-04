@@ -211,8 +211,8 @@ function expandCard(index,element) {
     for(var i = 1; i<5; i++ ){
         var $selectedCard = $('.speaker'+i).parent();
         var $selectedImage = $('.speaker'+i).find('img');
-        if($selectedCard.hasClass('col-sm-5')){
-            $selectedCard.removeClass('col-sm-5');
+        if($selectedCard.hasClass('col-sm-7')){
+            $selectedCard.removeClass('col-sm-7');
             console.log($selectedImage);
             if($selectedImage[0].alt==="gudak"){
                 $('#speaker1').removeClass('big_image');
@@ -242,7 +242,7 @@ function expandCard(index,element) {
 
     }
     $('.speaker'+index).parent().removeClass('col-sm-1');
-    $('.speaker'+index).parent().addClass('col-sm-5');
+    $('.speaker'+index).parent().addClass('col-sm-7');
     if(element.alt === "gudak"){
         element.setAttribute('src', './imgs/gudakBig.png');
         element.setAttribute('class','big_image');

@@ -28,6 +28,14 @@
 
  }
 @media (max-width: 600px){
+    .profile_title{
+        display: none;
+    }
+    .fp-slidesNav ul li a span {
+
+        top:200%;
+
+    }
     #speaker1, #speaker2, #speaker3, #speaker4{
         display: none;
     }
@@ -106,9 +114,14 @@
     color: white;
     font-size: 13px;
 }
+.fp-slidesNav ul li a span {
+
+    background: #cccccc;
+
+}
 .profile_title{
 
-    color: white;
+    color: #cccccc;
     margin-bottom: 7%;
 }
 .card-container{
