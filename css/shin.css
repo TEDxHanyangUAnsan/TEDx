@@ -32,6 +32,10 @@
     height: 360px;
 
  }
+.card-container:hover .card .card-info .profile-text{
+    color:yellow;
+}
+
 @media (max-width: 600px){
     .profile_title{
         display: none;
