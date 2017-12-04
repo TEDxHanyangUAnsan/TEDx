@@ -17,6 +17,10 @@
 .rs1, .rs2, .rs3, .rs4{
     display:none;
 }
+.col-md-5{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .speaker1, .speaker2, .speaker3, .speaker4{
     background-color: black;

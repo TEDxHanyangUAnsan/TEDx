@@ -1,7 +1,7 @@
 $(document).ready(function () {
     new WOW().init();
     $('#fullpage').fullpage({
-        sectionsColor: ['#1bbc9b', '#4BBFC3', '#3e2a75', '#3e2a75', '#3e2a75','#3e2a75','#000000'],
+        sectionsColor: ['#3e2a75', '#3e2a75', '#3e2a75', '#3e2a75', '#3e2a75','#3e2a75','#000000'],
         anchors: ['title', 'subject', 'speaker', 'about', 'profile', 'sponsor', 'contact'],
         menu: '#menu',
         scrollBar: true,
