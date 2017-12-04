@@ -6,6 +6,9 @@ $(document).ready(function () {
         menu: '#menu',
         scrollBar: true,
         slidesNavigation: true,
+        responsiveWidth: 600,
+
+
 
         scrollingSpeed: 600,
         afterRender: function () {
@@ -180,9 +183,7 @@ $(document).ready(function () {
             }
             new WOW().init();
         },
-        afterResponsive: function(isResponsive){
-            alert("Is responsive: " + isResponsive);
-        }
+
     });
 
 });
