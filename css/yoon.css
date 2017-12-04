@@ -1,13 +1,13 @@
-/*@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);*/
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@font-face{
+/* @font-face{
 	font-family:'KoPub Batang Medium';
 	src: url('../fonts/KoPub Batang Medium.ttf');
 }
 @font-face{
 	font-family:'KoPub Dotum Medium';
 	src: url('../fonts/KoPub Dotum Medium.ttf');
-}
+} */
 
 
 #section0 > div {
@@ -16,15 +16,15 @@
 #section0 > div > p {
 	margin-bottom: 73px;
 	color: #dfd7ff;
-	font-family: "Helvetica light", sans-serif;
+	font-family: "Helvetica", sans-serif;
 	font-size: 26px;
 	font-weight: lighter;
 }
 #section0 > div > h1 {
 	font-size: 45px;
 	color: #ede9ff;
-	font-family: "KoPub Batang Medium", serif;
-	/*font-weight: 300;*/
+	font-family: "KoPub Batang", serif;
+	font-weight: 300;
 }
 #applybutton > span {
 	font-size: 30px;
@@ -57,7 +57,7 @@
 }
 .tedxkor>p {
 	color: #fff;
-	font-family: 'KoPub Dotum Medium', sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 15px;
 	text-align: left;
 }

@@ -15,6 +15,9 @@
 main {
 	flex-shrink: 0;
 } */
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 .sec1 {
 	width: 80%;
 	margin-left: 15%;
@@ -42,13 +45,14 @@ main {
 /* subject 안에 들어갈 내용 */
 
 .subject_title > h1 {
-  font-family: "KoPub Batang Medium", serif;
+  font-family: "KoPub Batang", serif;
   font-size: 33px;
 	color: #ede9ff;
 	margin-bottom: 50px;
+	font-weight: normal;
 }
 .subject_text > p {
-	font-family: "KoPub Dotum Medium", serif;
+	font-family: "Nanum Gothic", serif;
 	color: #dfd7ff;
 	font-size: 15px;
 }
