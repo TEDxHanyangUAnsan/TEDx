@@ -225,4 +225,7 @@
         left: 38% !important;
         z-index: 100;
     } 
+    .fp-tableCell {
+        height: 100% !important;
+    }
 }
