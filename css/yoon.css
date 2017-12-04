@@ -1,89 +1,80 @@
-/*@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);*/
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@font-face{
+/* @font-face{
 	font-family:'KoPub Batang Medium';
 	src: url('../fonts/KoPub Batang Medium.ttf');
 }
 @font-face{
 	font-family:'KoPub Dotum Medium';
 	src: url('../fonts/KoPub Dotum Medium.ttf');
-}
-.director-box > h2 {
-    font-weight: bold; font-size:40px; color:#cccccc;margin-left:4%; padding-right:60px;
-}
+} */
+
 
 #section0 > div {
-	vertical-align: bottom;
+    vertical-align: bottom;
 }
 #section0 > div > p {
-	margin-bottom: 73px;
-	color: #dfd7ff;
-	font-family: "Helvetica light", sans-serif;
-	font-size: 26px;
-	font-weight: lighter;
+    margin-bottom: 73px;
+    color: #dfd7ff;
+    font-family: "Helvetica", sans-serif;
+    font-size: 26px;
+    font-weight: lighter;
 }
 #section0 > div > h1 {
-	font-size: 45px;
-	color: #ede9ff;
-	font-family: "KoPub Batang Medium", serif;
-	/*font-weight: 300;*/
+    font-size: 45px;
+    color: #ede9ff;
+    font-family: "KoPub Batang", serif;
+    font-weight: 600;
 }
 #applybutton > span {
-	font-size: 30px;
-	color: #fff;
-	font-family: Helvetica;
-	font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 #section3 {
-	background: url("../imgs/abouttedx.png");
-	background-size: cover;
-}
-#contact-heading  {
-    font-family: Helvetica, sans-serif;
-    font-size: 60px;
-    font-weight: bold !important;
-    color: #cccccc;
-    margin-bottom: 100px;
+    background: url("../imgs/abouttedx.png");
+    background-size: cover;
 }
 
 .abouttedx {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .tedxeng {
-	width: 448px;
-	height: 394px;
+    width: 448px;
+    height: 394px;
     background: rgba(0,0,0,0.4);
-	padding: 30px;
-	/*opacity: 0.8;*/
+    padding: 30px;
+    /*opacity: 0.8;*/
 }
 .tedxeng>p {
-	color: #fff;
-	font-family: Helvetica;
-	font-weight: lighter;
-	font-size: 15px;
-	text-align: left;
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: left;
 }
 .tedxkor>p {
-	color: #fff;
-	font-family: 'KoPub Dotum Medium', sans-serif;
-	font-size: 15px;
-	text-align: left;
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    text-align: left;
 }
 .tedxkor {
-	width: 448px;
-	height: 394px;
+    width: 448px;
+    height: 394px;
     background: rgba(0,0,0,0.4);
-	padding: 30px;
-	/*opacity: 0.8;*/
+    padding: 30px;
+    /*opacity: 0.8;*/
 }
 #tedxlogo {
 
-	margin-left: 60px;
-	margin-bottom: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
 }
 .tedxlogowrapper {
-	text-align: left;
+    text-align: left;
 }
 
 .front, .back {
@@ -106,102 +97,101 @@
 }
 
 @media (min-width: 1441px) {
-	#section0 > div > p {
-		margin-bottom: 100px;
-		color: #dfd7ff;
-		font-family: "Helvetica light", sans-serif;
-		font-size: 26px;
-		font-weight: lighter;
-	}
+    #section0 > div > p {
+        margin-bottom: 100px;
+        color: #dfd7ff;
+        font-family: "Helvetica", sans-serif;
+        font-size: 26px;
+        font-weight: lighter;
+    }
 }
 
 @media (max-width: 415px) {
-	#section0 > div > h1 {
-		font-size: 3.5rem;
-	}
-	#section0 > div > p {
-		font-size: 2.5rem;
-	}
-	#homebutton {
-		display: none;
-	}
-	#section0,#section1 ,#section2, #section3,#section4,#section5 {
-		background-size: cover;
-		background-position: center;
-	}
-	#applybutton {
-		display: none !important;
-	}
-	aside > img {
-		display: none;
-	}
-	.subject_title > p {
-		font-size: 2.5rem !important;
-	}
-	.subject_text > p {
-		font-size: 1.4rem !important;
-	}
-	a > img {
-		width: 2.5rem;
-	}
-	a + img {
-		width: 2.5rem;
-	}
-	.abouttedx {
-		display: flex;
-		justify-content: space-around;
-		flex-direction: column;
-		align-items: center;
-	}
-	.tedxkor > p {
-		font-size: 14px;
-	}
-	.tedxeng {
-		display: none;
-	}
-	.tedxkor {
-		width: 90%;
-		height: 45%;
-	}
-	.director-box {
-		flex-direction: column;
-	}
-	.director-box > h2 {
-		margin-left: 0px !important;
-		padding-right: 0px !important;
-		margin-bottom: 30px;
+    #section0 > div > h1 {
+        font-size: 3.5rem;
+    }
+    #section0 > div > p {
+        font-size: 2.5rem;
+    }
+    #homebutton {
+        display: none;
+    }
+    #section0,#section1 ,#section2, #section3,#section4,#section5 {
+        background-size: cover;
+        background-position: center;
+    }
+    #applybutton {
+        display: none !important;
+    }
+    aside > img {
+        display: none;
+    }
+    .subject_title > p {
+        font-size: 2.5rem !important;
+    }
+    .subject_text > p {
+        font-size: 1.4rem !important;
+    }
+    a > img {
+        width: 2.5rem;
+    }
+    a + img {
+        width: 2.5rem;
+    }
+    .abouttedx {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tedxkor > p {
+        font-size: 14px;
+    }
+    .tedxeng {
+        display: none;
+    }
+    .tedxkor {
+        width: 90%;
+        height: 45%;
+    }
+    .director-box {
+        flex-direction: column;
+    }
+    .director-box > h2 {
+        margin-left: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 30px;
+    }
+    .director-box > div {
+        display: none;
+    }
+    .director-box > ul {
+        text-align: center !important;
+        padding-left: 0px !important;
+    }
+    #contact-heading {
+        margin-bottom: 30px;
         font-size: 30px;
-	}
-	.director-box > div {
-		display: none;
-	}
-	.director-box > ul {
-		text-align: center !important;
-		padding-left: 0px !important;
-	}
-	#contact-heading {
-		margin-bottom: 30px;
-        font-size: 40px;
-	}
-	.footerText {
-		display: none;
-	}
-	.sponsor_box {
-		margin-right: 10% !important;
-		margin-left: 10% !important;
-	}
-	.subject_container {
-		display: none;
-	}
-	.subject_img {
-		width: 220px;
-	}
-	.sec1 {
-		margin-left: 10% !important;
-		margin-right: 10% !important;
-		margin-top: 10% !important;
-	}
-	.center {
-		text-align: center;
-	}
+    }
+    .footerText {
+        display: none;
+    }
+    .sponsor_box {
+        margin-right: 10% !important;
+        margin-left: 10% !important;
+    }
+    .subject_container {
+        display: none;
+    }
+    .subject_img {
+        width: 220px;
+    }
+    .sec1 {
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+        margin-top: 10% !important;
+    }
+    .center {
+        text-align: center;
+    }
 }
