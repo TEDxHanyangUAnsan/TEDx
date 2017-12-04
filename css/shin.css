@@ -10,6 +10,11 @@
 
 
 }
+
+.fp-slides {
+    z-index: 0;
+
+}
 .s_title{
     color: #cccccc;
     margin-bottom: 3%;
