@@ -50,6 +50,7 @@ main {
 	color: #ede9ff;
 	margin-bottom: 50px;
 	font-weight: normal;
+    letter-spacing: -5px;
 }
 .subject_text > p {
 	font-family: "Nanum Gothic", serif;
