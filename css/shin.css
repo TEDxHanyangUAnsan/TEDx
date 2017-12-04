@@ -39,6 +39,11 @@
     .rs1, .rs2, .rs3, .rs4{
         display: block;
     }
+    .card-info{
+        display: inline-grid;
+        padding-left: 0px;
+    }
+
 
 }
 
@@ -96,6 +101,46 @@
     transform-origin: top right;
     padding-left:10%;
 
+}
+.profile_major{
+    color: white;
+}
+.profile_title{
+
+    color: white;
+    margin-bottom: 7%;
+}
+.card-container{
+    height: 100%;
+}
+.card{
+    background-color: #1d1438 !important;
+    border-radius: 0px;
+}
+.card-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: left;
+    padding-left: 6%;
+}
+.card-info{
+    padding-top: 7%;
+    padding-bottom: 18%;
+    text-align: left;
+    padding-left: 6%;
+}
+.profile-text{
+    color:white;
+    font-size: 20px;
+}
+.card-image{
+    background-color: #1d1438;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.profile-img{
+    width: 100%;
+    height: auto;
 }
 .from{
     letter-spacing: 1px;

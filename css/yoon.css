@@ -94,13 +94,9 @@
     background-color: black;
 
 }
-.card-container {
-    width: 280px;
-    height: 410px;
-    padding: 30px;
-}
+
 .fp-controlArrow.fp-prev {
-    left: 16%;
+    left: 8%;
     border-color : #000;
 }
 
