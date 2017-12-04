@@ -97,12 +97,18 @@
 
 .fp-controlArrow.fp-prev {
     left: 8%;
-    border-color : #000;
+    background: url(../imgs/left.png) no-repeat;
+    border:none;
+    width: 50px;
+    height: 101px;
 }
 
 .fp-controlArrow.fp-next {
     right: 10%;
-    border-color : #000;
+    border: none;
+    width: 50px;
+    height: 101px;
+    background: url(../imgs/right.png) no-repeat;
 }
 
 @media (min-width: 1441px) {
