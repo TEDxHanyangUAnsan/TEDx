@@ -219,4 +219,10 @@
     .center {
         text-align: center;
     }
+    #loading-image {
+        position: absolute;
+        top: 40% !important;
+        left: 40% !important;
+        z-index: 100;
+    } 
 }
