@@ -54,7 +54,7 @@
 
  }
 .card-container:hover .card .card-info .profile-text{
-    color:yellow;
+    color: #c79794;
 }
 
 @media (max-width: 600px){
