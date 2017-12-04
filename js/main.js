@@ -173,16 +173,9 @@ $(document).ready(function () {
         },
         onLeave: function (index, nextIndex, direction) {
 
-            if ($('.wow').hasClass('animated')) {
-                $('.wow').removeClass('animated');
-                $('.wow').removeAttr('style');
-            }
-            if(index === 4){
-                $('#menu li a').css('color', '#cccccc');
 
-            }
-            new WOW().init();
-        },
+
+        }
 
     });
 

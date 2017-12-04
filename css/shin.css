@@ -23,7 +23,7 @@
 }
 
 .speaker1, .speaker2, .speaker3, .speaker4{
-    background-color: black;
+    background-color: transparent;
     height: 360px;
 
  }
@@ -118,6 +118,10 @@
 
     background: #cccccc;
 
+}
+.overlay{
+    background-color: black;
+    display: inline-block;
 }
 .profile_title{
 
