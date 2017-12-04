@@ -8,7 +8,9 @@
 	font-family:'KoPub Dotum Medium';
 	src: url('../fonts/KoPub Dotum Medium.ttf');
 }
-
+.director-box > h2 {
+    font-weight: bold; font-size:40px; color:#cccccc;margin-left:4%; padding-right:60px;
+}
 
 #section0 > div {
 	vertical-align: bottom;
@@ -35,6 +37,13 @@
 #section3 {
 	background: url("../imgs/abouttedx.png");
 	background-size: cover;
+}
+#contact-heading  {
+    font-family: Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold !important;
+    color: #cccccc;
+    margin-bottom: 100px;
 }
 
 .abouttedx {
@@ -161,6 +170,7 @@
 		margin-left: 0px !important;
 		padding-right: 0px !important;
 		margin-bottom: 30px;
+        font-size: 30px;
 	}
 	.director-box > div {
 		display: none;
@@ -171,7 +181,7 @@
 	}
 	#contact-heading {
 		margin-bottom: 30px;
-        font-size: 30px;
+        font-size: 40px;
 	}
 	.footerText {
 		display: none;
