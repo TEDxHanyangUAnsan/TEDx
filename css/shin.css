@@ -56,11 +56,28 @@
 .card-container:hover .card .card-info .profile-text{
     color: #c79794;
 }
+.mobile_apply{
+    display: none;
+}
 
 @media (max-width: 600px){
     .profile_title{
         display: none;
     }
+    .mobile_apply{
+        display: block;
+        text-align: center;
+    }
+    .mobile_apply_button{
+        width:100px;
+        height:60px;
+        margin-top: 3%;
+        background-color: red;
+        color: white;
+        border: 0px;
+
+    }
+
     .fp-slidesNav ul li a span {
 
         top:180%;

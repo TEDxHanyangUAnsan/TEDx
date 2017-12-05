@@ -184,8 +184,8 @@
     .director-box > h2 {
         margin-left: 0px !important;
         padding-right: 0px !important;
-        margin-bottom: 30px;
-        font-size: 30px;
+        margin-bottom: 15px;
+        font-size: 15px;
     }
     .director-box > div {
         display: none;
@@ -195,8 +195,8 @@
         padding-left: 0px !important;
     }
     #contact-heading {
-        margin-bottom: 30px;
-        font-size: 40px;
+        margin-bottom: 5px;
+        font-size: 30px;
     }
     .footerText {
         display: none;
