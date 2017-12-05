@@ -82,3 +82,7 @@ main {
 .sponsor_box > img {
 	padding: 15px;
 }
+
+.rich > img{
+	width: 200px;
+}
